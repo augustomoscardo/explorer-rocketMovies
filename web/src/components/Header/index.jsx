@@ -35,7 +35,7 @@ export function Header() {
       <Profile>
         <div>
           <Link to="/profile">
-            <strong>Augusto Moscardo</strong>
+            <strong>{user.name}</strong>
           </Link>
           <button onClick={handleSignOut}>sair</button>
         </div>
